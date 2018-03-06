@@ -2,6 +2,8 @@
 
 # 函数  def 函数名(参数):
 
+from demo.second import nester
+
 print("************数据的处理******************")
 fav_movies = ["one", "two", "there"]
 
@@ -33,6 +35,8 @@ def print_movies(item):
 there_list = ["1_one", "1_two", "1_there"]
 there_list.insert(2, ["123", "234"])
 fav_movies.insert(2, there_list)
-print_movies_1()
-print_movies_2()
-print_movies(fav_movies)
+# print_movies_1()
+# print_movies_2()
+# print_movies(fav_movies)
+
+nester.print_lol(fav_movies, False, 5)
