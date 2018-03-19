@@ -13,7 +13,7 @@ def sanitize(time_string):
         splitter = ":"
     else:
         return time_string
-    (mins, second) = time_string.split(splitter)
+    (mins, second) = time_string.split(splitter, 2)
     return mins + "." + second
 
 
