@@ -23,10 +23,11 @@ with open("data.txt") as sp:
 for item_data in read_line:
     sp = item_data.strip().split(",")
 
-    """创建一个新的    列表保存转化后的数据
+    """创建一个新的列   表保存转化后的数据
+        迭代    每个数据
         迭代每个数据
         迭代完成处理异常的数据
-        追加到新的集合中"""
+        追加到新的   集合中"""
     # new_data = []
     # for item_sp in sp:
     #     new_data.append(sanitize(item_sp))
